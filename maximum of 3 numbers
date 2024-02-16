@@ -1,0 +1,20 @@
+// "static void main" must be defined in a public class.
+
+
+// maximum of 3 numbers
+
+public class Main {
+    public static void main(String[] args) {
+        int ans =-1;
+        int a =20, b= 4, c=40;
+        if(a >= b  && a >= c){
+            ans =a;
+        } else if(b>=a && b >= c){
+            ans =b;
+        }
+        else {
+            ans =c;
+        }
+        System.out.println(ans);
+    }
+}
